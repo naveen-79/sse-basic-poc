@@ -1,0 +1,11 @@
+[project]
+name = "postion-tracking-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115.8",
+    "sse-starlette>=2.2.1",
+    "uuid>=1.30",
+]
